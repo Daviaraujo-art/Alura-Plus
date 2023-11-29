@@ -7,7 +7,9 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color:var(--branco-principal)
+    color:var(--branco-principal);
+    font-family: 'Inter' , 'sans-serif';
+    font-size: 15px;
 }
 
 * {
@@ -16,6 +18,9 @@ body {
 
 }
 
+h1 {
+    font-size: 1em;
+}
 .principal {
     background-image: url(assents/Background.png);
     background-repeat: no-repeat;
@@ -37,10 +42,19 @@ body {
     display: block;
     text-align: center;
     margin-bottom: 16px;
+    text-decoration: none;
+    
 }
 
 .botao__secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
     text-align:center;
+}
+
+
+@media (max-width: 800px) {
+    body{
+        font-size: 10px;
+    }
 }
