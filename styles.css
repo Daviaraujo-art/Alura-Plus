@@ -51,10 +51,3 @@ h1 {
     border: 2px solid var(--branco-principal);
     text-align:center;
 }
-
-
-@media (max-width: 800px) {
-    body{
-        font-size: 10px;
-    }
-}
