@@ -61,7 +61,8 @@ h1 {
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 30%;
+    margin: 1em 6em;
 }
 
 .secundario {
@@ -74,10 +75,16 @@ h1 {
     font-size: 48px;
     color:var(--branco-principal);
     margin-bottom:0.1em ;
+    text-align: right;
 }
 
 .descricao__texto {
     color: var(--cinza-secundario);
+    text-align: right;
+}
+
+.secundario {
+    display: inline-block;
 }
 
 @media (max-width: 800px) {
